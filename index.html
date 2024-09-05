@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    
+    <section  style="text-align: center;">
+    
+
+    <form action="https://httpbin.org/post" method="post" style="background-color: orange; margin: auto; width: 40%; ">
+
+        <h1>Sign Up</h1>
+
+        <label for="first">First Name:</label>
+        <input type="text" id="first" placeholder="Enter Your First Name" name="first_name" style="width: 40%; height: 30px;">
+        <br><br>
+        <label for="last">Last Name:</label>
+        <input type="text" name="last_name" id="last" placeholder="Enter Your Last Name" style="width: 40%;height: 30px;" >
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="ex: myname@gmail.com" style="width: 40%;height: 30px;" >
+        <br><br>
+        <label for="mobile">Mobile-Number:</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="Enter Mobile Number" style="width: 40%;height: 30px;" >
+        <br><br>
+        <label for="country">Country:</label>
+        <input type="text" name="Country" id="country" style="width: 40%;height: 30px;" placeholder="Enter Your Country"> 
+        <br><br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="number" placeholder="Day" name="day" style="width: 70px;" id="dob" style="width: 40%;height: 30px;" >
+        <select name="month">
+            <option>month</option>
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        <input type="number" placeholder="Year" style="width: 70px;" name="year">
+        <br><br>
+
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="others">Others
+
+        <br>
+        <br>
+
+        <button style="width: 20%;height: 30px;background-color: rgb(67, 42, 229); color: white;">Submit Form</button>
+
+        
+
+        <a href="./signin.html" >Sign In</a>
+
+
+
+    </form>
+
+
+</section>
+
+
+</body>
+
+</html>
